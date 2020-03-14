@@ -9,3 +9,11 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+html {
+   background: url("https://cdn.glitch.com/20e4e05a-f629-46f5-96bc-240e28f76d7e%2FBoard.png?v=1584225304878") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
