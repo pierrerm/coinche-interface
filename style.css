@@ -21,10 +21,12 @@ html {
 }
 
 .deck {
-  width: 100%;
-  height: 20%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
 } 
 
 .card {
-  height: 20%;
+  width: 100%;
+  height: auto;
 }
