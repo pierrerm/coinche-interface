@@ -21,9 +21,16 @@ html {
 }
 
 .deck {
-  width: 50%;
+  width: 35%;
   margin-left: auto ;
   margin-right: auto ;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  position: relative;
+} 
+
+.deckSideways {
+  width: 35%;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   position: relative;
@@ -48,10 +55,14 @@ html {
 }
 
 .west {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
   width=100%;
   position:absolute;
-  left:0;
-  top:50%;
+  left:10px;
 }
 
 .card {
