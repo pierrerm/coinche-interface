@@ -30,10 +30,15 @@ html {
 } 
 
 .deckSideways {
-  width: 35%;
+  width: 30%;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   position: relative;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 } 
 
 .south {
@@ -55,14 +60,10 @@ html {
 }
 
 .west {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
   width=100%;
   position:absolute;
-  left:10px;
+  left:-11%;
+  top:40%;
 }
 
 .card {
