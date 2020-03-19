@@ -13,21 +13,33 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-    
     <div id="totalScoreDiv">
+      <h2 class="scoreTitle">
+        Total Score
+      </h2>
       <h2>
-        U : 760 <br>
+        U : 760 <br />
         T : 120
       </h2>
     </div>
-    
+
     <div id="roundScoreDiv">
-      <h2>
-        U : 760 <br>
-        T : 120
-      </h2>
+      <div id="roundScore">
+        <h2 class="scoreTitle">
+          Round Score
+        </h2>
+        <h2>
+          U : 81 <br />
+          T : 0
+        </h2>
+      </div>
+      <div id="trump">
+        <h3 id="trumpScore">
+          120 	&#9829
+        </h3>
+      </div>
     </div>
-    
+
     <div id="board">
       <div id="southDiv" class="south">
         <div id="southCards" class="deck">
@@ -305,7 +317,7 @@
         </div>
       </div>
     </div>
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+    <!-- <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script> -->
   </body>
 </html>

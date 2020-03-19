@@ -13,6 +13,10 @@ h2 {
   color: #e6ce8a;
 }
 
+h3 {
+  color: red;
+}
+
 html {
   min-height: 100%;
   box-shadow: inset 0 0 300em 1em #000;
@@ -66,7 +70,7 @@ html {
   border-style: solid;
   border-width: thick;
   border-color: #e6ce8a;
-  width: 8%;
+  width: 13%;
   padding-left: 2%;
   position:absolute;
   top:0;
@@ -74,15 +78,42 @@ html {
 }
 
 #roundScoreDiv {
+  width: 15%;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+#roundScore {
   border-radius: 5%;
   border-style: solid;
   border-width: thick;
   border-color: #e6ce8a;
-  width: 8%;
-  padding-left: 2%;
-  position:absolute;
-  top:0;
-  right:0;
+  padding-left: 15%;
+}
+
+
+/* display trump and announce for the round */
+#trump {
+  background: white;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: thick;
+  border-color: red;
+  height: 2rem;
+  width:50%;
+  margin-left:auto;
+  text-align:center
+}
+
+#trumpScore {
+  position: relative;
+  top: -40%;
+}
+
+.scoreTitle {
+  font-size: 75%;
+  font-style: italic;
 }
 
 .south {
