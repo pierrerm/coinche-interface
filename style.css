@@ -35,6 +35,25 @@ html {
   bottom:0;
 }
 
+.north {
+  width=100%;
+  position:absolute;
+  top:0;
+}
+
+.east {
+  width=100%;
+  position:absolute;
+  right:0;
+}
+
+.west {
+  width=100%;
+  position:absolute;
+  left:0;
+  top:50%;
+}
+
 .card {
   width: 100%;
   height: auto;
